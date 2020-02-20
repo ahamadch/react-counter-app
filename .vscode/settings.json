@@ -1,0 +1,12 @@
+{
+  "javascript.format.enable": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.enable": true,
+  "typescript.format.insertSpaceAfterCommaDelimiter": false,
+  "prettier.tabWidth": 2
+}
