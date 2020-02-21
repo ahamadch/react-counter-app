@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 class Counter extends Component {
   render() {
     return (
-      <div>
-        <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
+      <div className="row">
+        <div className="countDiv">
+          <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
+        </div>
         <button onClick={() => this.props.onIncrement(this.props.counter)} className="btn btn-secondary btn-sm m-2">
           +
         </button>

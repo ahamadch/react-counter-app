@@ -9,7 +9,7 @@ const NavBar = (props) => {
       <button
         onClick={props.onResetAll}
         className="btn btn-primary m-2">
-        Reset All
+        Clear All
       </button>
     </nav>
    );
