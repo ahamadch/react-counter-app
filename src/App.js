@@ -22,11 +22,14 @@ class App extends Component {
     this.setState({counters});
   };
 
-  handleAdd = () => {
+  handleAdd = addCount => {
     const itemLength     = this.state.counters.length;
     const counters       = [...this.state.counters];
-    const newItem        = {id: (itemLength + 1), value: 0};
-    counters[itemLength] = newItem;
+    for (let i = 0; i < addCount; i++) {
+      let itemIndex       = itemLength + i;
+      let newItem         = {id: (itemIndex + 1), value: 0};
+      counters[itemIndex] = newItem;
+    }
 
     this.setState({counters});
   };
